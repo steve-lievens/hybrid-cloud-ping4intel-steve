@@ -13,10 +13,10 @@ public class HybridCloudPing4intelApplication {
     }
 
     public void run(){
-        String username = Crypto.getInstance().encrypt("");
+        String username = Crypto.getInstance().encrypt("client");
         System.out.println(username);
 
-        String pw = Crypto.getInstance().encrypt("");
+        String pw = Crypto.getInstance().encrypt("user5612");
         System.out.println(pw);
     }
 
